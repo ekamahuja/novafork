@@ -199,7 +199,7 @@ async function displaySelectedMedia(media, mediaType) {
             <div class="flex-shrink-0 w-28 mx-2 text-center">
                 <div class="w-28 h-28 mx-auto mb-2 rounded-full overflow-hidden border-2 border-purple-500 shadow-lg">
                     <img src="https://image.tmdb.org/t/p/w500${actor.profile_path}" alt="${actor.name}" 
-                         class="w-full h-full object-cover" onerror="this.src='path/to/placeholder-image.jpg';">
+                         class="w-full h-full object-cover"">
                 </div>
                 <p class="text-white font-semibold text-sm truncate">${actor.name}</p>
                 <p class="text-gray-400 text-xs truncate">${actor.character}</p>
